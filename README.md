@@ -12,8 +12,8 @@ Berikut adalah langkah - langkah cara mengimport data dari excel kedalam databas
    - Pastikan bahwa struktur kolom di Excel sesuai dengan struktur tabel di database Anda.
    - Tempelkan skrip SQL INSERT yang telah Anda salin dari langkah sebelumnya ke sel di Excel. Tempelkan skrip tersebut pada sel yang sesuai dengan baris yang ingin Anda impor
    - Lalu didalam values tambahkan code seperti berikut **=A2&"("&B2&","&"'"&C2&"'"&", ............ )"&";"** untuk menentukan nilai dari kolom atau baris yang sesuai.
-   - Keterangan : A2 = Kolom & Baris tempat rumus SQL INSERT INTO
-                  B2 = Kolom & Baris field pertama tabel
+   - Keterangan : A2 = Kolom & Baris tempat rumus SQL INSERT INTO,
+                  B2 = Kolom & Baris field pertama tabel,
                   C2 = Kolom & Baris field kedua tabel
    - Salin code rumus SQL tersebut lalu tempelkan kesetiap baris data yang akan di import ke database.
    - Kemudian salin ulang seluruh skrip SQL dari Excel, yang sekarang telah diperbarui dengan nilai-nilai dari kolom atau baris yang dipilih..
